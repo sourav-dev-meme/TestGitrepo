@@ -11,6 +11,7 @@ export class HomePage {
   constructor(public navCtrl: NavController , public device: Device) 
   {
     alert('Device UUID is: ' + this.device.uuid);
+    alert('Device UUID is: ' + this.device.uuid);
   }
 
 }
